@@ -1,0 +1,58 @@
+########## CSS DINNER ##########
+# https://flukeout.github.io/ #
+_01.	plate 
+_02.	bento		
+_03.	#fancy	
+_04.	plate apple	
+_05.	#fancy pickle
+_06.	.small	
+_07.	orange.small
+_08.	bento orange.small
+_09.	bento, plate
+_10.	*
+_11.	plate *
+_12.	plate + apple
+_13.	bento ~ pickle
+_14.	plate > apple
+_15.	1)	plate orange:nth-child(1)  
+	2)	orange:first-child
+_16.	1)	plate apple, plate pickle
+	2)	plate apple:only-child, plate pickle:only-child
+	3) 	apple, plate pickle
+_17.	1)	.small:last-child
+	2)	plate apple, pickle
+	3)	apple, pickle
+	4)	#fancy apple, pickle.small
+_18.	1)	:nth-child(3)
+	2)	:nth-last-child(2)
+_19.	bento:nth-child(2)
+_20.	1)	apple:nth-child(2)
+	2)	apple:first-of-type
+_21.	plate:nth-of-type(even)
+_22.	plate:nth-of-type(2n+3)	// Every second, starting from 3th
+_23.	1)	plate > apple.small:last-child
+	2)	apple.small:last-child
+	3)	plate apple:only-of-type	
+	4)	plate:nth-child(2) apple
+_24.	1)	orange:last-of-type, apple:last-child
+	2)	orange:nth-child(2), .small:last-of-type
+	3)	orange:nth-of-type(2), apple:nth-of-type(2)
+_25.	1)	bento:empty
+	2)	bento:not(:has(*))
+_26.	apple:not(.small)
+_27.	1)	:nth-child(n+2):not(:last-child)	// Select all from 2nd without last
+	2)	*[for]
+_28.	1)	plate[for]
+	2)	plate:not(:empty)
+_29.	1)	[for="Vitaly"]
+	2)	bento[for="Vitaly"]
+_30.	1)	plate, bento[for="Sarah"]
+	2)	[for^="S"]		// Any for starting with “S”
+_31.	1)	[for$="o"]		// Any for ending with “o”
+	2)	bento, plate
+_32.	1)	bento:nth-of-type(odd)
+	2)	bento:not(:nth-of-type(even))
+	3)	bento[for*="bb"]	// Any including “bb”
+	4)	bento:last-child, bento:first-child
+
+
