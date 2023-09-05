@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orienta&display=swap');
+/* Body */
+body {
+  background-color: darkred;
+}
+
+/* Heading 1 */
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+/* Heading 2 */
+h2 {
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  color: #DFBF84;
+  text-align: center;
+}
+
+/* Paragraph */
+p {
+  font-family: 'Orienta', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f6f6f6;
+  text-align: center;
+}
