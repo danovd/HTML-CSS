@@ -1,0 +1,20 @@
+body {
+    font-family: Helvetica, sans-serif; /* Типове шрифтове */
+    line-height: 1.5;           /* Височина на самия ред, на който се пише*/
+    font-size: 18px;            /* Големина на шрифта */
+    background-color: #EDEDED;
+  }
+  
+  h2 {
+    text-decoration: underline; /* Подчертан текст*/
+    padding: 20px;              /* Отстояние на текста вътре в елемента*/
+    margin: 10px 5px;           /* Отстояние на елемента от други елементи top-down/ left-right*/
+    letter-spacing: 3px;        /* Разстоние между буквите*/
+    background-color: #3B516B;
+    border-radius: 10px;        /* Заобленост на рамката на елемента*/
+    color: floralwhite;       /* */
+  }
+  
+  li {
+    margin-left: 20px;          
+  }
