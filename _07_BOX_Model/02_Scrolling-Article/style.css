@@ -1,0 +1,20 @@
+article {
+    width: 500px;
+    height: 200px;
+    background-color: lightgray;
+    padding: 10px;
+    overflow: auto;
+  }
+  
+  h2 {
+    text-transform: uppercase; /* All characters to be UPPERCASE */
+    text-align: center; /* Align the text to the center */
+  }
+  
+  h3 {
+    text-align: center; /* Align the text to the center */
+  }
+  
+  p {
+    text-indent: 30px; /* Indent text in the first line by 30px */
+  }
