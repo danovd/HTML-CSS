@@ -1,0 +1,34 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    background-color: #333; /* Darker grey background for headers */
+    color: white;
+    border: 1px solid #666; /* Border for headers */
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Grey background for odd rows */
+  }
+  
+  tr:nth-child(even) {
+    background-color: white; /* White background for even rows */
+  }
+  
+  td {
+    border: 1px solid #ddd; /* Border for cells */
+    padding: 8px;
+  }
