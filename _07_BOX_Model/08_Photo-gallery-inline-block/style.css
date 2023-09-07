@@ -1,0 +1,28 @@
+body {
+    padding: 5rem;
+    background-color: #eee;
+  }
+  
+  .gallery {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  li {
+    
+    display: inline-block;
+    background-color: #fff;
+    border: 0.4rem solid #000;
+    padding: 1rem;
+  
+    margin: 0.5rem;
+    width: 25%;
+  }
+  
+  img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+
