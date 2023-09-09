@@ -1,0 +1,84 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+* {
+    box-sizing: border-box;
+}
+/*
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+*/
+img {
+    display: block;
+}
+
+body {
+    margin: 0;
+}
+
+.card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    width: 15%;
+}
+
+/*
+.card::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    box-shadow: inset 0 0 20px #000;
+    border-radius: 5px;
+}
+*/
+.viewport {
+    position: relative;
+    height: 50vh;
+}
+
+.lake-container {
+    background: linear-gradient(to right,  #258dc8 0%,#2be5cc   100%);
+  /*  height: 500px; */  
+}
+
+.mountain-container {
+    background: linear-gradient(to right,  #d3288c 0%,#ef982d   100%);
+   /* height: 800px; */
+}
+.mountain {
+    height: 90%;
+}
+.lake img,
+.mountain img {
+    border-radius: 5px;
+}
+
+.lake img {
+    width: 400px;
+    height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.mountain img {
+    width: 400px;
+    height: 500px;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.lake .fa,
+.mountain .fa {
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+}
