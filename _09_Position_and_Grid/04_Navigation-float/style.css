@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header h1,  header nav,  header li{
+    display: inline-block;
+    overflow: hidden;
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    grid-template-areas: "tit . nav ";
+    margin-right: 130px;
+    margin-left: 80px;
+    margin-top: 80px;
+    border-bottom: 2px solid black;
+    position: relative;
+}
+article {
+    margin-right: 130px;
+    margin-left: 80px;
+}
+li {
+    margin: 10px;
+  
+}
+header h1 {
+    margin-bottom: 0px;
+    grid-area: tit;
+
+}
+
+nav {
+    grid-area: nav;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+}
+nav ul {
+    text-align: right;
+}
+
+img {
+    float: right;
+}
