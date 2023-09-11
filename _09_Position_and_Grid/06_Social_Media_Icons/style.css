@@ -9,7 +9,11 @@ li {
     padding: 30px;
     border-radius: 50%;
 }
-img {
+svg {
     width: 50px;
     height: 50px;
 }
+/* The feature in */
+path:hover {
+    fill: blue;
+  }
