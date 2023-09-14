@@ -1,0 +1,25 @@
+body {
+background-color: rgb(238, 238, 238);
+display: flex;
+height: 100vh;
+width: 100vw;
+justify-content: center;
+align-items: center;
+}
+
+div {
+background-color:    rgb(255, 255, 255);
+width: 22%;
+height: 16%;
+padding: 8px;
+border-radius: 6px;
+box-shadow: 0px 0px 16px 4px rgb(183, 180, 180);
+}
+div p {
+
+font-size: 12px;
+}
+h1 {
+font-size: 16px;
+
+}
