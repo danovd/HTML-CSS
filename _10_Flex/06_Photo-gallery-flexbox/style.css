@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body, ul, li {
+    display: flex;
+}
+
+body {
+    max-width: 100vw;
+    height: 100vh;
+    font-size: 0px;
+    overflow: scroll;
+    margin: 0 auto;
+}
+
+
+section {
+    display: flex;
+    width: 100%;
+   
+}
+img{
+    width: 100%;
+    padding: 20px;
+    border: 8px solid black;
+    object-fit: contain;
+}
+li {
+    width: 32%;
+    justify-content: space-between;
+}
+ul{
+    width: 100%;    
+    padding: 96px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
