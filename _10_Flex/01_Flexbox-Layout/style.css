@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    box-sizing: border-box;
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  header, main, aside, footer {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+  }
+  main, aside {
+    height:calc(50% - 80px)
+  }
+  main {
+    width: 22%;
+  }
+  
+ footer {
+    flex-basis: 100%;
+    height: calc(20% - 80px)
+  }
+  header {
+    flex-basis: 100%;
+    height: calc(30% - 80px)
+  }
+  main {
+    flex: 8 1 40rem;
+  }
+  
+  aside {
+    flex: 2 1 16rem;
+  }
+
+  
