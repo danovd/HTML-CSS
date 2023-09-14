@@ -1,0 +1,90 @@
+html, * {
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+    text-align: center;
+    background-color: blue;
+    border: white solid 10px;
+    height:80vh;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+span {
+    background-color: antiquewhite;
+    height:25%;
+    /* outline: 1px solid black; */
+    border: 1px solid black;
+}
+
+.week {
+    width: 75%;
+    height: 100%;
+}
+.work, .weekend{
+   background-color: aqua;
+   width: 100%;
+   height: 25%;
+   padding-top: 20px;
+}
+.weekend{
+    background-color: chartreuse;
+}
+.day {
+    width: 20%;  
+    background-color: cornflowerblue;
+    padding-top: 20px;
+ /*   flex-grow: 1; */
+}
+
+
+/*  .day:nth-of-type selecting 8 and 9 instead of 6 and 7 because the :nth-of-type 
+    selector is selecting not by classes, but elements!!! So in this case it is selecting 8 and 9 number of
+    type span! Also, :nth-child select not by class, but elements. The difference is that if there is other 
+    elements on same level as span-s, they will also be concidered in the order!
+*/
+
+.day:nth-of-type(8), .day:nth-of-type(9){
+    background-color: brown;
+    width: 50%;
+}
+
+/*
+.day:nth-child(8){
+    width: 50%;
+}
+.day:nth-child(9){
+    width: 50%;
+}
+*/
+
+/*
+.notes {
+    height: 100%;
+    width: 25%;
+    background-color: blueviolet;
+}
+.rem {
+    height: 50%;
+    width: 100%;
+}
+*/
+
+.notes {
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+
+.rem {
+     flex-grow: 1;   
+   
+}
