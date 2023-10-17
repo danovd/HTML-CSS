@@ -1,0 +1,114 @@
+@media(max-width:600px){
+
+.navigation-nav, .home-text {
+    display: none; 
+}
+
+.home-text01.Heading2 {
+    margin-top: 0px;
+}
+.home-text01.Heading2 {
+    font-size: 36px;
+    width: 200px;
+    line-height: 1.5;
+}
+
+.home-text02{
+    font-size: 18px;
+}
+.home-text-container{
+    margin-bottom: 20px;
+}
+
+.home-text03.tab-selector-btn, .tab-selector-btn{
+    font-size: 18px;
+}
+.home-tab-selector-cards-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home-tab-selector-cards-container {
+    margin-bottom: 32px;
+}
+
+.portofolio-card-first-name {
+    font-size: 22px;
+}
+
+.home-about.section-container, .home-process.section-container{
+    padding-top: 24px;
+}
+
+.home-image-container{
+    display: none;
+}
+
+.home-text06, .home-checklist{
+    font-size: 18px;
+}
+
+.home-about.section-container {
+    height: 600px;
+}
+
+.home-text08{
+    width: 100%;
+    text-align: center;
+}
+
+.home-text09.Heading2 {
+    font-size: 54px;
+    line-height: 1.3;
+}
+.home-text10 {
+    margin-right: 20px;
+}
+
+.home-text11{
+    font-size: 28px;
+}
+.home-text12 {
+    font-size: 21px;
+}
+
+.home-process.section-container{
+    height: 1024px;
+}
+
+.home-top-part, .home-links-container{
+   
+    flex-direction: column;
+}
+.section-container{
+    margin-top: -70px;
+    padding-bottom: 40px;
+}
+
+.home-product-container{
+    justify-content: space-around;
+   
+}
+.home-links-container{
+    gap: 20px;
+}
+.home-text13{
+    width: 250px;
+    margin-top: 20px;
+}
+.button-primary.button{
+    width: 110px;
+    height: 50px;
+}
+
+
+.home-about.section-container{
+    height: 670px;
+}
+
+
+.navigation-header {
+    position: absolute;
+}
+}
