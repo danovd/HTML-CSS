@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(217, 217, 217);
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    background-color: rgb(217, 217, 217);
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+section{
+    background-color: rgb(217, 217, 217);
+    width: 29%;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+.img_wr{
+    width: 100%;
+    height: 40%;
+    margin-bottom: 30px;
+}
+
+.img_wr img{
+   width: 100%;
+   height: 100%;
+  
+
+}
+.contents{
+    padding: 30px;
+    overflow: hidden;
+}
+.contents h2{
+    font-size: 18px;
+    color: rgb(96, 81, 82);
+}
+.contents h1{
+    font-size: 30px;
+    font-weight: 100;
+    padding: 6px 0px;
+    color: rgb(42, 41, 41)
+}
+.contents p{
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 32px 0px;
+    color:rgb(115, 114, 114);
+    max-height: 180px;
+    
+}
+.img_container{
+    display: flex;
+    align-items: center;
+   padding-top: 20px;
+   border-top: 1px solid rgb(36, 35, 35); 
+}
+.img_wrapper{
+    width: 58px;
+    height: 58px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.img_container img{
+    width: 100%;
+    object-fit: contain;
+}
+.img_container p:nth-child(2){
+    margin-left: 10px;
+}
+.img_container p:nth-child(3){
+    margin-left: auto;
+    color: rgb(184, 184, 184);
+}
