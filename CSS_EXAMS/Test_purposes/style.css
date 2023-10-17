@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    width: 90%;
+    min-width: 10px;
+    height: 100px;
+    background-color: azure;
+    font-size: 20px;
+    overflow: hidden;
+}
