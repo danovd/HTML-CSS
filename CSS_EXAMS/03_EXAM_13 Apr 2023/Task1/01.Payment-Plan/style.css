@@ -1,0 +1,80 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+body {
+    background-color: rgb(217, 217, 217);
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-image: url("image/background.jpg");
+    width: 100%;
+    height: 100%;
+    padding: 100px 140px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section {
+    background-color: white;
+    width: 33%;
+    height: 100%;
+    padding: 40px 46px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+section:nth-child(1){
+    height: 90%;
+    
+}
+section:nth-child(2){
+    height: 100%;
+}
+section:nth-child(3){
+    height: 95%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+section > p {
+    font-weight: 100;
+    font-size: 22px;
+    color: rgb(64, 64, 64);
+   
+}
+section > p > span {
+    color: black;
+    font-size: 80px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(64, 64, 64);
+    margin-bottom: 8px;
+}
+
+div p {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+div p:first-child{
+    line-height: 2.0;
+}
+button {
+    color: white;
+    background-color: black;
+    height: 60px;
+    width: 160px;
+    margin-top: auto;
+    border-radius: 6px;
+    font-size: 20px;
+}
