@@ -1,0 +1,134 @@
+
+
+body { 
+    height: 100vh;
+    width: 100vw;
+    font-size: 0px;  
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+p{
+    color: rgb(93, 90, 90);
+    margin: 24px 0px;
+}
+img {
+    margin-left: 24px;
+}
+body > * {
+    font-size: 16px;                    /* Then set to all children some chosen font-size*/
+}
+
+main {
+    
+    width: 100%;
+    height: 100%; 
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 40px 100px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: grid;
+    gap: 20px;
+    /* 200px is the total gap space (2 gaps * 20px) */
+    grid-template-columns: repeat(3, calc((100% - 40px) / 3)); 
+    
+    /* 100px is the total gap space (1 gap * 20px) */
+    grid-template-rows: repeat(2, calc((100% - 20px) / 2)); 
+    grid-template-areas:
+      "f f t" 
+      "s s t";
+    justify-content: center;
+}
+
+.f {
+    grid-area: f;
+    background-color: rgb(255, 255, 255);
+}
+
+.s {
+    grid-area: s;
+    background-color: rgb(255, 255, 255);
+}
+
+.t {
+    grid-area: t;
+    background-color: rgb(255, 255, 255);
+}
+
+article {
+    display: flex;
+    padding: 30px
+}
+.content {
+    width: 70%;
+}
+.thumbnail {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.thumbnail2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    object-fit: cover;
+    border-radius: 100%; 
+}
+i {
+    font-size: 30px;
+}
+.rrr {
+    font-size: 48px;
+}
+.last {
+    margin-top: 60px;
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+    justify-content: left;
+    border-top: rgb(205, 203, 203) solid 1px;
+    padding-top: 8px;
+    vertical-align: middle;
+    position: relative;
+}
+.t p {
+    margin-top: 60px;
+}
+.last_content{
+    display: flex;
+    flex-direction: column; /* Optional, if you want to center content vertically in a column */
+    justify-content: center;
+    gap: 4px;
+}
+div h3 {
+    color: rgb(93, 90, 90); 
+    font-size: 10px;
+}
+/*
+.thumbnail2::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;    
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+}
+*/
