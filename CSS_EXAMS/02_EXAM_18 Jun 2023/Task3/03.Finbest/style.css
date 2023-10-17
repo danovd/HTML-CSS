@@ -1,0 +1,349 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, main{
+    background-color: white;
+    height: 100px;
+    font-size: 20px;
+    margin: 0px 100px;
+}
+main{
+    height: auto;
+}
+nav{
+    height: 100%;
+}
+header ul[role='list']{
+    display: flex;
+    height: 100%; 
+    gap: 40px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header ul li:nth-child(1){
+    margin-left: 220px;
+}
+header ul li:nth-child(6){
+    margin-right: 100px;
+    background-color: rgb(173, 226, 223);
+    width: 102px;
+    height: 44px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+header ul li:nth-child(5){
+    margin-left: auto;
+
+}
+main section{
+    width: 100%;
+}
+
+/* Section 1*/
+main section:nth-child(1){
+    height: 450px;
+    background-color: rgb(173, 226, 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+main section:nth-child(1) h1{
+    font-size: 72px;
+}
+.btn_container1{
+    margin-top: 20px;
+}
+.btn_container1 button{
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+}
+
+/* Section 2 */
+
+main section:nth-child(2){
+    padding: 60px 80px;
+    
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section:nth-child(2) div{
+    width: 400px;
+    padding: 10px 20px;
+    border-left: rgb(182, 181, 181) 1px solid;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+main section:nth-child(2) div:last-child{
+    border-right: grey 1px solid;
+}
+main section:nth-child(2) div p {
+    text-align: center;
+}
+main section:nth-child(2) div h2{
+    font-weight: 600;
+    font-size: 44px;
+}
+
+/* Section 3*/
+main section:nth-child(3){
+    background-color: rgb(173, 226, 223);
+    height: 600px;
+    display: flex;
+}
+main section:nth-child(3) div:nth-child(1){
+    height: 100%;
+    width: 40%;
+
+}
+main section:nth-child(3) div:nth-child(1) img{
+    height: 100%;
+  
+    margin-left: auto;
+    padding: 0px 50px 40px 50px;
+    border: rgb(200, 200, 200) dashed 2px;
+}
+main section:nth-child(3) div:nth-child(2){
+    height:100%;
+    width: 60%;
+    padding: 100px; 
+    padding-right: 290px;
+}
+main section:nth-child(3) div:nth-child(2) h1{
+    font-size: 44px;
+}
+main section:nth-child(3) div:nth-child(2) p{
+    margin-bottom: 10px;
+}
+.bold{
+    margin-top: 28px;
+    font-weight: bold;
+}
+main section:nth-child(3) div:nth-child(2) p:last-child{
+    margin-top: 36px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+}
+main section:nth-child(3) div:nth-child(2) p:last-child i {
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 10px;
+}
+
+/* Section 4 */
+
+main section:nth-child(4){
+    height: 250px;
+    background-color: rgb(243, 245, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section:nth-child(4) h1{
+    font-size: 44px;
+    line-height: 1;
+}
+main section:nth-child(4) button{
+    background-color: rgb(173, 226, 223);
+    padding: 4px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+main section:nth-child(4) * {
+    margin-top: 50px;
+}
+
+/* Section 5 */
+
+
+main section:nth-child(5){
+    display: flex;
+    height: 660px;
+    background-color: rgb(243, 245, 250);
+    padding-bottom: 60px;
+} 
+
+main section:nth-child(5) article {
+    background-color: white;
+    border-top: 1px solid rgb(211, 210, 210);
+    border-bottom: 1px solid rgb(211, 210, 210);
+}
+main section:nth-child(5) article:nth-child(1){
+    border-left: 1px solid rgb(211, 210, 210);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+main section:nth-child(5) article > div{
+    border-right: solid 1px rgb(211, 210, 210);
+    padding-left: 40px;
+    padding-right: 40px;        
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+main section:nth-child(5) article:nth-child(3) > div{
+    border-right: none;
+    
+}
+main section:nth-child(5) article h3{
+    text-align: center;
+}
+main section:nth-child(5) article h2{
+    font-size: 44px;
+    margin: 20px 0px;
+    border-bottom: solid rgb(202, 201, 201) 1px;
+    padding-bottom: 20px;
+}
+
+main section:nth-child(5) article h2 span{
+    font-size: 16px;
+    font-weight: 500;
+}
+main section:nth-child(5) i{
+  
+    transform: scale(0.7);
+}
+
+
+main section:nth-child(5) article button{
+    width: 100%;
+    margin-top: 60px;
+    height: 80px;
+    border-radius: 8px;
+    background-color: rgb(173, 226, 223);
+    border: none;
+}
+main section:nth-child(5) > article{
+    width: 20%;
+}
+main section:nth-child(5) > div{
+    width: 40%;
+    
+}
+
+main section:nth-child(5) article > div p{
+    font-size: 16px;
+}
+main section:nth-child(5) article > div div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+main section:nth-child(5) > div{
+    background-color:  rgb(173, 226, 223);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-child(5) > div h3 {
+    margin-top: 40px;
+    text-align: center;
+}
+main section:nth-child(5) > div > p{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 36px;
+} 
+main section:nth-child(5) > div > div> p > i{
+   
+    transform: 0.7;
+}
+
+main section:nth-child(5) > div > button{
+    width: 100%;
+    height: 80px;
+    border-radius: 8px;
+    border: none;
+    /*
+    margin-top: 212px;
+    margin-bottom: 40px;
+    */
+    margin-bottom: 40px;
+    margin-top: auto;
+    color: white;
+    background-color: black;
+}
+
+
+
+/* Section 6*/
+main section:nth-child(6){
+    position: relative;
+    height: 600px;
+    background-color:  rgb(173, 226, 223);;
+}
+main section:nth-child(6) h1{
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.2;
+    width: 800px;
+    font-size: 72px;
+}
+main section:nth-child(6) p{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 700px;
+    font-size: 24px;
+}
+main section:nth-child(6) div{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 700px;
+    font-size: 24px;
+}
+main section:nth-child(6) div button{
+    padding: 20px 40px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+footer{
+    display: flex;
+    height: 140px;
+    padding: 0px 100px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+footer p{
+    margin-left: 40px;
+}
+footer div{
+    margin-right: 60px;
+    display:flex;
+    gap: 20px;
+}
